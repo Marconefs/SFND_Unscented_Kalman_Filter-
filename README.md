@@ -32,7 +32,7 @@ The Root Mean Square Error (RMSE) obtained with UKF using different sensors set 
 |  Vy | 00.4344 | 43.7210 | 00.3760 |
 
 
-Normalized Innovation Squared (NIS). This metric follows a Chi-squared distribution, and gives an approximate idea of whether or not the parameters were initialized in the correct range. Fig. 2 and 3 shows NIS values for both LIDAR and RADAR based UKF, 
+The Normalized Innovation Squared (NIS) metric follows a Chi-squared distribution, and gives an approximate idea of whether or not the parameters were initialized in the correct range. Fig. 2 and 3 shows the resulted NIS values for both LIDAR and RADAR based UKF, 
 
 <p align="center">
   <img src="media/NIS-lidar.png" width="700" height="400" />
