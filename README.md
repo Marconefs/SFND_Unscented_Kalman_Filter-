@@ -5,7 +5,7 @@ This work presents the algorithm and results obtained with the third project pro
 [`ukf.cpp`](src/ukf.cpp) contains the Unscented Kalman Filter implementation, the block diagrams of the algorithm is shown in the figure bellow. An explanation about the UKF can be found [here](https://www.seas.harvard.edu/courses/cs281/papers/unscented.pdf).
 
 <p align="center">
-  <img src="media/algorithm.png" width="500" height="500" />
+  <img src="media/algorithm.png" width="700" height="400" />
   <em><br>Fig. 1 - Schematic (Source: Udacity)</em>
 </p>
 
@@ -35,12 +35,12 @@ The Root Mean Square Error (RMSE) obtained with UKF using different sensors set 
 The Normalized Innovation Squared (NIS) metric follows a Chi-squared distribution, and gives an approximate idea of whether or not the parameters were initialized in the correct range. Fig. 2 and 3 shows the resulted NIS values for both LIDAR and RADAR based UKF, 
 
 <p align="center">
-  <img src="media/NIS-lidar.png" width="700" height="400" />
+  <img src="media/NIS-lidar.png" width="700" height="350" />
   <em><br>Fig. 2 - NIS radar</em>
 </p>
 
 <p align="center">
-  <img src="media/NIS-radar.png" width="700" height="400" />
+  <img src="media/NIS-radar.png" width="700" height="350" />
   <em><br>Fig. 3 - NIS lidar</em>
 </p>
 ---
